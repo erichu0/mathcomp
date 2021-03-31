@@ -1,0 +1,13 @@
+.btn-primary {
+    background-image: linear-gradient(to right,#567BFF, #5EB1FF);
+    border: none !important;
+    border-radius: 2rem !important;
+    margin-bottom: 0 !important;
+    &:focus{
+        border:0px;
+    }
+}
+// $paragraph-margin-bottom: 0px;
+$primary: blue;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
